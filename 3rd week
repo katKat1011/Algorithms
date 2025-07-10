@@ -1,0 +1,107 @@
+Absolutely, Kelly! Volume 1 of *The Art of Computer Programming*—titled **Fundamental Algorithms**—is a treasure trove of foundational techniques and deep insights. Let’s break down some of the key algorithmic themes we can explore in your class presentation:
+
+---
+
+## 🧠 Core Topics from Volume 1: *Fundamental Algorithms*
+
+### 📐 1. Mathematical Preliminaries
+- Proof techniques: induction, contradiction, and combinatorics
+- Number theory essentials: primes, GCD, modular arithmetic
+- These form the backbone for analyzing algorithm correctness and efficiency
+
+---
+
+### 🧮 2. MIX Architecture
+- Knuth’s hypothetical computer: MIX (later MMIX)
+- Used to illustrate low-level algorithm implementation
+- Teaches how algorithms interact with machine-level instructions
+
+---
+
+### 🗃️ 3. Basic Data Structures
+- Arrays, linked lists, stacks, queues, trees
+- Operations like insertion, deletion, traversal
+- Emphasis on memory management and pointer manipulation
+
+---
+
+### 🔁 4. Fundamental Algorithms
+- Searching: linear and binary search
+- Sorting: insertion sort, selection sort, bubble sort
+- Algorithm walkthroughs with MIX assembly examples
+
+---
+
+### 🧹 5. Garbage Collection
+- Memory allocation and deallocation strategies
+- Techniques for reclaiming unused memory
+- Early introduction to dynamic memory management
+
+---
+
+### 📊 6. Algorithm Analysis
+- Time and space complexity
+- Asymptotic notation: Big O, Ω, Θ
+- Knuth’s rigorous approach to performance evaluation
+
+---
+
+### 🧩 7. Combinatorial Algorithms (Intro)
+- Generating permutations and combinations
+- Recursive and iterative techniques
+- Applications in enumeration and problem-solvin
+
+
+Asymptotic notation is a mathematical tool used to describe the efficiency of algorithms as the input size grows—especially when that size becomes very large. It helps computer scientists and engineers analyze how an algorithm performs in terms of time or space, without getting bogged down by machine-specific constants or small input quirks.
+
+Here’s a breakdown of the main types of asymptotic notation:
+
+📈 Big O Notation (O)
+
+Describes the worst-case scenario
+
+Represents the upper bound on time or space complexity
+
+Example: Searching in an unsorted list → O(n)
+
+📉 Omega Notation (Ω)
+
+Describes the best-case scenario
+
+Represents the lower bound on performance
+
+Example: If an algorithm always takes at least n steps → Ω(n)
+
+⚖️ Theta Notation (Θ)
+
+Describes the average-case or tight bound
+
+Represents both upper and lower bounds
+
+Example: If an algorithm always takes exactly n steps → Θ(n)
+
+🐢 Little o Notation (o)
+
+Represents a non-tight upper bound
+
+Means the algorithm grows strictly slower than another function
+
+Example: f(n) = o(n²) implies f(n) grows slower than n²
+
+🐇 Little omega Notation (ω)
+
+Represents a non-tight lower bound
+
+Means the algorithm grows strictly faster than another function
+
+Example: f(n) = ω(n) implies f(n) grows faster than linear
+
+🧠 Why It Matters
+
+Helps compare algorithms regardless of hardware
+
+Focuses on scalability and long-term performance
+
+Essential for choosing the right algorithm for large datasets
+
+
